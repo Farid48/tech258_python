@@ -51,3 +51,6 @@ pip install pygame
 8) **PyGame** - Used to create basic games (Games Dev)
 9) **PyTorch** - Largest machine learning library
 10) **PyBrain** - Built for beginners in the field of machine learning
+
+
+change for demo (using nano text editor

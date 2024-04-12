@@ -37,22 +37,16 @@ dict_data = {
 # 1)
 # for num in List_data:
 #     print(num*2)
-# else:
-#     print("End of list")
 
 # 2)
 # for i in embedded_lists:
 #     print(i)
-# else:
-#     print("No more lists")
 
 # 3)
 # for i in embedded_lists:
 #     print(i)
 #     for j in i:
 #         print(j)
-# else:
-#     print("No more lists")
 
 # 4)
 # for i in dict_data:
@@ -81,7 +75,16 @@ dict_data = {
 #     elif i > 3:
 #         print("More than 3")
 
+# Loops
 
+### What are loops? Are the different types? What can you do with them?
+
+# Loops are ways to repeat certain instructions until a criteria is met
+# FOR Loops : A list of instructions are given, and when these instructions are finished, that's when the loop ends
+# WHILE Loops : While a condition is true / is not true, a certain instruction is completed over and over again until the conditions are met. (This one can break code easily, so make sure to add an exit)
+
+## task 3: While loop
+# If there was no increment, no the while loop wouldn't stop and can cause crashes
 
 
 

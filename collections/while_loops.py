@@ -10,13 +10,13 @@
 
 # Task 4:
 # 1)
-user_prompt = True
-while user_prompt == True:
-    age = input("What is your age? ")
-    if age.isdigit() and int(age) <= 117:
-        user_prompt = False
-    else:
-        print("Please enter your real age")
-print(f"Your age is {age}")
-
-
+# user_prompt = True
+# while user_prompt == True:
+#     age = input("What is your age? ")
+#     if age.isdigit() and int(age) <= 117:
+#         user_prompt = False
+#     else:
+#         print("Please enter your age in numbers")
+# print(f"Your age is {age}")
+#
+#

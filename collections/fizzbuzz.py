@@ -12,5 +12,7 @@ while num <= 100:
 
     elif num%5 == 0 and num != 0:
         print(f"{num} - Buzz")
+    else:
+        print(num)
 
     num += 1

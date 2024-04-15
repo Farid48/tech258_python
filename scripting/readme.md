@@ -41,4 +41,8 @@ print(f"remainder from 1/5: {math.remainder(1,5)}")
 2) Monitoring Script: Collects and analyses system metrics for servers or applications
 3) Backup Script: Automates the backup
 4) Configuration Management Script: Manages configuration files across multiple servers or environments
-5) Alerting Script: Monitors system health.
+5) Alerting Script: Monitors system health and triggering alerts using email or SMS
+6) CI/CD Pipeline Script: Can be used to streamline the software development and delivery process
+7) Security Compliance Script: Can check system configurations against security standards and identify any vulnerabilities 
+8) Patch Management Script: Can automate the installation of software patches across the server
+9) Auditing Script: Automated tasks to perform audits against company regulations and standards

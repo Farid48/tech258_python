@@ -69,7 +69,7 @@ Content-Type: application/json
 }
 ```
 ## Stateful
-Stateful is where the server **stores data or context associated with each client's session**, allowing it to provide personalised responses.
+Stateful is where the server **stores data or context associated with each client's session**, allowing it to provide personalised responses. One big queue, until the previous request is complete, the next request will not be processed.
 
 ### Stateful POST Request
 ```

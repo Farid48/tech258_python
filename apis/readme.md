@@ -50,3 +50,11 @@ The response diagram is slightly different to the Request Diagram. At the top of
 
 ## WHat is Statelessness?
 
+Statelessness refers to the characteristic of a system where each request from a client to a server contains all the information necessary for the server to fulfill the request, without relying on any context or state stored on the server between requests. **So the server does not maintain any information about the state of the client's interactions beyond the current request.**
+
+```HTTP
+GET /api/users/123 HTTP/1.1
+Host: example.com
+```
+## What is Caching?
+* Storing frequently accessed data in a temporary storage location. This allows for faster data retrieval and improves performance. However, that data might not be up-to-date. 

@@ -11,7 +11,7 @@ An API stands for **Application Programming Interface**. They are mechanisms tha
 ![img.png](images/img.png)
 
 ## What is a REST API? What makes a API RESTful?
-REST is a set of **architectural constraints**, that are not protocols or a standard. it relies on a **stateless protocol such as HTTP**. Restful APIs are designed to be **scalable and easily maintainable**. Restful APIs follow a client-server architecture where the client server are separate and communicate over a stateless protocol. This allows improves scalability, but allowing clients or servers to evolve independently.
+REST is a set of **architectural constraints** (Representational State Transfer), that are not protocols or a standard. it relies on a **stateless protocol such as HTTP**. Restful APIs are designed to be **scalable and easily maintainable**. Restful APIs follow a client-server architecture where the client server are separate and communicate over a stateless protocol. This allows improves scalability, but allowing clients or servers to evolve independently.
 
 ### Guidelines on Rest APIs
 Here  are a few guidelines on creating and using Rest APIs:
@@ -52,9 +52,31 @@ The response diagram is slightly different to the Request Diagram. At the top of
 
 Statelessness refers to the characteristic of a system where each request from a client to a server contains all the information necessary for the server to fulfill the request, without relying on any context or state stored on the server between requests. **So the server does not maintain any information about the state of the client's interactions beyond the current request.**
 
-```HTTP
+### Stateless GET Request
+```
 GET /api/users/123 HTTP/1.1
 Host: example.com
 ```
+### Stateless POST Request
+```
+POST /api/users HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+```
+## Stateful
+Stateful is where the server **stores data or context associated with each client's session**, allowing it to provide personalised responses.
+
+### Stateful POST Request
+```
+
+```
+
+
 ## What is Caching?
 * Storing frequently accessed data in a temporary storage location. This allows for faster data retrieval and improves performance. However, that data might not be up-to-date. 
+
